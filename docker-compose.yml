@@ -1,0 +1,13 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: demora
+      POSTGRES_PASSWORD: demora
+      POSTGRES_DB: demora
+    ports:
+      - "5432:5432"
+    volumes:
+      - demora_pg:/var/lib/postgresql/data
+volumes:
+  demora_pg:

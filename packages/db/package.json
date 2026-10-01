@@ -1,0 +1,17 @@
+{
+  "name": "@demora/db",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "bcryptjs": "^2.4.3"
+  },
+  "devDependencies": {
+    "prisma": "^5.18.0",
+    "tsx": "^4.16.0",
+    "typescript": "^5.5.0"
+  }
+}

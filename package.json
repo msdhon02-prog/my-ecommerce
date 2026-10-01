@@ -1,0 +1,13 @@
+{
+  "name": "demora",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:api": "pnpm --filter api dev"
+  },
+  "packageManager": "yarn@4.18.1"
+}
